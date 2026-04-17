@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shellatol-Commits | Website</title>
+    <style>
+        /* Modern Dark Theme */
+        body { 
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; 
+            background-color: #0d1117; 
+            color: #c9d1d9; 
+            margin: 0; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            min-height: 100vh;
+            animation: fadeIn 1s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card { 
+            background-color: #161b22; 
+            border: 1px solid #30363d; 
+            border-radius: 16px; 
+            padding: 40px; 
+            width: 90%; 
+            max-width: 400px; 
+            text-align: center; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5); 
+        }
+
+        .profile-img { 
+            width: 110px; 
+            height: 110px; 
+            border-radius: 50%; 
+            border: 3px solid #58a6ff; 
+            margin-bottom: 20px;
+            background-color: #0d1117;
+        }
+
+        h1 { margin: 0; font-size: 1.6rem; color: #f0f6fc; }
+        .username { color: #8b949e; font-size: 1rem; margin-top: 5px; }
+        
+        .description { margin: 20px 0; font-size: 0.95rem; line-height: 1.5; color: #8b949e; }
+
+        .btn {
+            display: inline-block;
+            background-color: #238636;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: background 0.3s;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .btn:hover { background-color: #2ea043; }
+
+        .footer-link {
+            display: block;
+            margin-top: 20px;
+            color: #58a6ff;
+            text-decoration: none;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <!-- Pulls your actual GitHub photo -->
+    <img src=https://avatars.githubusercontent.com/u/264698744?v=4" alt="Avatar" class="profile-img">
+    
+    <h1>Shellatol</h1>
+    <div class="username">@shellatol-commits</div>
+    
+    <p class="description">
+        Developer focused on tracking activity and repository management. 
+        Always pushing new updates.
+    </p>
+
+    <a href="https://github.com/shellatol" class="btn">View Main Repository</a>
+
+    <a href="https://github.com/shellatol-commits" class="footer-link">Follow on GitHub →</a>
+</div>
+
+</body>
+</html>
